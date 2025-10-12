@@ -38,4 +38,4 @@ best_estimator = grid_search.best_estimator_
 y_prediction = best_estimator.predict(x_test)
 score = accuracy_score(y_prediction, y_test)
 print('{}% of samples were correctly classified'.format(str(score * 100)))
-pickle.dump(best_estimator, open('./model.p', 'wb'))
+pickle.dump(best_estimator, open(r'.\Applicational_Projects\4)_Image_Classifier_Empty_or_Not_Parking_Lot\model.p', 'wb'))

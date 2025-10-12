@@ -4,8 +4,8 @@ import easyocr
 import matplotlib.pyplot as plt
 
 # paths
-input_dir = r"Applicational_Projects\3)_Text_Detection_OCR\Data\Inputs"
-output_dir = r"Applicational_Projects\3)_Text_Detection_OCR\Data\Outputs"
+input_dir = r"Applicational_Projects\3)_Text_Detection_OCR\data\inputs"
+output_dir = r"Applicational_Projects\3)_Text_Detection_OCR\data\outputs"
 os.makedirs(output_dir, exist_ok=True)
 
 # instance text detector
