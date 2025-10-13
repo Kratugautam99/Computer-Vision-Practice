@@ -14,7 +14,7 @@ while True:
     if bbox is not None:
         x1, y1, x2, y2 = bbox
         frame = cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 5)
-    cv2.imshow("1) Color Detection Project", frame)
+    cv2.imshow("1) Color Detection of Object Project", frame)
     key = cv2.waitKey(1) & 0xFF
     if chr(key).lower() == 'q':
         break

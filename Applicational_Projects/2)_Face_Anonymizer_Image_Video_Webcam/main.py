@@ -62,7 +62,7 @@ with mp_face_detection.FaceDetection(model_selection=0, min_detection_confidence
         ret, frame = cam.read()
         while ret:
             frame = process_img(frame, face_detection)
-            cv2.imshow('frame', frame)
+            cv2.imshow('2) Face Anonymizer Image/Video/Webcam Project', frame)
             if chr(cv2.waitKey(25) & 0xFF).lower() == 'q':
                 break
             ret, frame = cam.read()

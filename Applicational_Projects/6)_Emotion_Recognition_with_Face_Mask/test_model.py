@@ -23,7 +23,7 @@ while ret:
                3,
                (255, 0, 0),
                5)
-    cv2.imshow('frame', frame)
+    cv2.imshow('6) Emotion Recognition with Face Mask', frame)
     key = cv2.waitKey(25) & 0xFF
     if chr(key).lower() == 'q':
         break
