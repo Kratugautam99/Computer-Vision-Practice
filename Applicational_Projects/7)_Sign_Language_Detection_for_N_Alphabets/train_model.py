@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import numpy as np
 
-
+# This Model is of (K, R, A) Alphabets
 data_dict = pickle.load(open(r'Applicational_Projects\7)_Sign_Language_Detection_for_N_Alphabets\Data\data.pickle', 'rb'))
 
 data, labels = [], []

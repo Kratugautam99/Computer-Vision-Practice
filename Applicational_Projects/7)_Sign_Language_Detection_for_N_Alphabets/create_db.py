@@ -7,7 +7,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
-
+# This Model is of (K, R, A) Alphabets
 DATA_DIR = r'Applicational_Projects\7)_Sign_Language_Detection_for_N_Alphabets\Data'
 
 data = []

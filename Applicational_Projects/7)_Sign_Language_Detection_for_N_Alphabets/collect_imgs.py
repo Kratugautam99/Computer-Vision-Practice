@@ -1,6 +1,6 @@
 import os, cv2
 
-
+# This Model is of (K, R, A) Alphabets
 DATA_DIR = r'Applicational_Projects\7)_Sign_Language_Detection_for_N_Alphabets\Data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
