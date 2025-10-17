@@ -1,0 +1,5 @@
+Create a different env and use requirements.txt from root and then Use:-
+
+pip install streamlit tensorflow==2.12.0
+
+As it might destroy the dependencies required by other mini-projects.
