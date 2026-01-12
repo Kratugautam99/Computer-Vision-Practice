@@ -1,7 +1,7 @@
 import cv2
 
-input_file = r"Applicational_Projects\10)_AWS_Rekognition_BBOX_Data\Horses60FPS.mp4"
-output_file = r"Applicational_Projects\10)_AWS_Rekognition_BBOX_Data\Horses25FPS.mp4"
+input_file = r"Applicational_Projects\10)_AWS_Rekognition_FullAccess_IAM\Horses60FPS.mp4"
+output_file = r"Applicational_Projects\10)_AWS_Rekognition_FullAccess_IAM\Horses25FPS.mp4"
 
 cap = cv2.VideoCapture(input_file)
 

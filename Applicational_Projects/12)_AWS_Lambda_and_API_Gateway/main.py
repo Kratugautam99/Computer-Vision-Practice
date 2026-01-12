@@ -20,6 +20,7 @@ def convertToGray(img):
 
 
 if __name__ == "__main__":
+    print("12) AWS Lambda and API Gateway Project")
     img_path = r'Applicational_Projects\12)_AWS_Lambda_and_API_Gateway\TestIMG.png'
     img = cv2.imread(img_path)
     img_gray = convertToGrayAPI(img)

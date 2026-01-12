@@ -38,6 +38,7 @@ for fname in os.listdir(input_dir):
     output_path = os.path.join(output_dir, out_name)
 
     cv2.imwrite(output_path, img)
+    print("3) Text Detection OCR Project")
     print(f"Saved {output_path}")
 
 

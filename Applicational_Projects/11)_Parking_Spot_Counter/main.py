@@ -63,8 +63,8 @@ while ret:
     cv2.putText(frame, 'Available spots: {} / {}'.format(str(sum(spots_status)), str(len(spots_status))), (100, 60),
                 cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
 
-    cv2.namedWindow('11) Parking Spot Counter', cv2.WINDOW_NORMAL)
-    cv2.imshow('11) Parking Spot Counter', frame)
+    cv2.namedWindow('11) Parking Spot Counter Project', cv2.WINDOW_NORMAL)
+    cv2.imshow('11) Parking Spot Counter Project', frame)
     if cv2.waitKey(25) & 0xFF == ord('q'):
         break
 

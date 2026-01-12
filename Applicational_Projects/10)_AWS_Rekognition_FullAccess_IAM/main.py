@@ -11,7 +11,7 @@ access_key = os.getenv('AWSRekoAccessKey')
 secret_key = os.getenv('AWSRekoSecretKey')
 
 # Output directories
-output_dir = r'Applicational_Projects\10)_AWS_Rekognition_BBOX_Data\output_data'
+output_dir = r'Applicational_Projects\10)_AWS_Rekognition_FullAccess_IAM\output_data'
 anns_dir = os.path.join(output_dir, 'outp_frame_data')
 imgs_dir = os.path.join(output_dir, 'outp_frame_imgs')
 
@@ -30,7 +30,7 @@ reko_client = boto3.client(
 )
 
 # Input video
-input_file = r"Applicational_Projects\10)_AWS_Rekognition_BBOX_Data\Horses25FPS.mp4"
+input_file = r"Applicational_Projects\10)_AWS_Rekognition_FullAccess_IAM\Horses25FPS.mp4"
 cap = cv2.VideoCapture(input_file)
 
 # Set the target class
@@ -97,9 +97,9 @@ while ret:
 
 
         # Show and save frame
-        cv2.namedWindow('10) AWS Rekognition BBOX Data Project', cv2.WINDOW_NORMAL)
-        cv2.resizeWindow('10) AWS Rekognition BBOX Data Project', 480, 852)
-        cv2.imshow('10) AWS Rekognition BBOX Data Project', frame)
+        cv2.namedWindow('10) AWS Rekognition FullAccess IAM Project', cv2.WINDOW_NORMAL)
+        cv2.resizeWindow('10) AWS Rekognition FullAccess IAM Project', 480, 852)
+        cv2.imshow('10) AWS Rekognition FullAccess IAM Project', frame)
         if cv2.waitKey(25) & 0xFF == ord('q'):
            break
         cv2.imwrite(os.path.join(imgs_dir, f'frame_{str(frame_nmr).zfill(6)}.jpg'), frame)

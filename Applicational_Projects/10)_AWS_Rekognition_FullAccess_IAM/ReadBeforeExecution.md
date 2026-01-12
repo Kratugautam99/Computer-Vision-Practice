@@ -1,4 +1,4 @@
-# 🔑 Steps to Get AWS Rekognition Access Keys
+## 🔑 Steps to Get AWS Rekognition Access Keys
 
 1. **Sign in to AWS Console**  
    - Go to [https://console.aws.amazon.com](https://console.aws.amazon.com) and log in with your AWS account.

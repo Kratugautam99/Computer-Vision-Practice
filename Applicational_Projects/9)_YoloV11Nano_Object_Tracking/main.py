@@ -11,8 +11,8 @@ while ret:
     if ret:
         results = model.track(frame, persist=True)
         frame_ = results[0].plot()
-        cv2.namedWindow('9) YoloV11Nano Object Tracking', cv2.WINDOW_NORMAL)
-        cv2.resizeWindow('9) YoloV11Nano Object Tracking', 480, 852)
-        cv2.imshow('9) YoloV11Nano Object Tracking', frame_)
+        cv2.namedWindow('9) YoloV11Nano Object Tracking Project', cv2.WINDOW_NORMAL)
+        cv2.resizeWindow('9) YoloV11Nano Object Tracking Project', 480, 852)
+        cv2.imshow('9) YoloV11Nano Object Tracking Project', frame_)
         if cv2.waitKey(8) & 0xFF == ord('q'):
             break

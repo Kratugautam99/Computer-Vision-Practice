@@ -12,4 +12,5 @@ image_path = r'Applicational_Projects\5)_Feature_Extraction_with_Inference\data\
 img = Image.open(image_path)
 features = img2vec.get_vec(img)
 pred = model.predict([features])
+print("4) Feature Extraction with Inference Project")
 print(pred)
