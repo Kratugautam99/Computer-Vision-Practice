@@ -299,7 +299,7 @@ conda activate opencvenv
 python -c "import cv2; print(f'OpenCV Version: {cv2.__version__}')"
 ```
 
-### Option 2: Using Pip/Virtualenv
+### Option 2: Using Pip/Virtualenv (Python Version = 3.11.13)
 
 ```bash
 # Create virtual environment
