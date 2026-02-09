@@ -7,19 +7,19 @@
 ## 📖 Overview
 
 A comprehensive repository containing **11 foundational OpenCV tutorials** and **13 real-world computer vision applications**, designed to take you from basic image processing to advanced AI-powered vision systems. This collection demonstrates the full spectrum of computer vision capabilities, enabling machines to perceive, interpret, and interact with visual data.
-- ✨ [Features](#features)
-- 🏗️ [Repository Structure](#repository-structure)
-- 🎯 [OpenCV Tutorials (1-11)](#opencv-tutorials-1-11)
-- 🚀 [Computer Vision Applications (1-13)](#computer-vision-applications-1-13)
-- 🛠️ [Technologies Stack](#technologies-stack)
-- ⚙️ [Environment Setup](#environment-setup)
-- 🚀 [Getting Started](#getting-started)
-- 🔧 [Customization](#customization)
-- 📊 [Expected Outputs](#expected-outputs)
-- ©️ [Certification](#certification)
-- 🤝 [Contributing](#contributing)
-- 🙏 [Acknowledgments](#acknowledgments)
-- 📄 [License](#license)
+- ✨ [Features](#-features)
+- 🏗️ [Repository Structure](#-repository-structure)
+- 🎯 [OpenCV Tutorials (1-11)](#-opencv-tutorials-1-11)
+- 🚀 [Computer Vision Applications (1-13)](#-computer-vision-applications-1-13)
+- 🛠️ [Technologies Stack](#-technologies-stack)
+- ⚙️ [Environment Setup](#-environment-setup)
+- 🚀 [Getting Started](#-getting-started)
+- 🔧 [Customization](#-customization)
+- 📊 [Expected Outputs](#-expected-outputs)
+- ©️ [Certification](#-certification)
+- 🤝 [Contributing](#-contributing)
+- 🙏 [Acknowledgments](#-acknowledgments)
+- 📄 [License](#-license)
 
 ---
 ## ✨ Features
