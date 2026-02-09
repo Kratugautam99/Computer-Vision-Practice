@@ -16,6 +16,7 @@ A comprehensive repository containing **11 foundational OpenCV tutorials** and *
 - 🚀 [Getting Started](#getting-started)
 - 🔧 [Customization](#customization)
 - 📊 [Expected Outputs](#expected-outputs)
+- ©️ [Certification](#certification)
 - 🤝 [Contributing](#contributing)
 - 🙏 [Acknowledgments](#acknowledgments)
 - 📄 [License](#license)
@@ -38,7 +39,7 @@ A comprehensive repository containing **11 foundational OpenCV tutorials** and *
 ## 🏗️ Repository Structure
 
 ```
-📁 Computer-Vision-OpenCV-Mastery/
+📁 Computer-Vision-Practice/
 │
 ├── # 🎬 OPENCV TUTORIALS (11 Foundation Files)
 ├── 1)_OpenCV_Image_Inp_Outp.py
@@ -53,6 +54,19 @@ A comprehensive repository containing **11 foundational OpenCV tutorials** and *
 ├── 10)_OpenCV_Drawing.py
 └── 11)_OpenCV_Contours.py
 │
+├── 📁 # 🗃️ OPENCV COURSE JUPYTER FILES (11 Conceptual Knowledge Notes)
+│   ├── 1_Getting_Started_with_Images.ipynb
+│   ├── 2_Image_Manipulations_Crop_Resize_Flip_and_Modify_Pixels.ipynb
+│   ├── 3_Annotating_Images.ipynb
+│   ├── 4_Image_Enhancement_Mathematical_Operations.ipynb
+│   ├── 5_Writing_Video_using_OpenCV.ipynb
+│   ├── 6_Image_Alignment.ipynb
+│   ├── 7_Panorama.ipynb
+│   ├── 8_HDR.ipynb
+│   ├── 9_Object_Tracking.ipynb
+│   ├── 10_TF_Object_Detection.ipynb
+│   └── 11_OpenPose.ipynb
+|
 ├── 📁 # 🚀 APPLICATIONAL PROJECTS (13 Real-World Applications)
 │   ├── 1)_Color_Detection_of_Objects/
 │   ├── 2)_Face_Anonymizer_Image_Video_Webcam/
@@ -366,6 +380,10 @@ CONFIG_PATH = "custom_config.yaml"
 Each tutorial generates corresponding output files in the `Outputs/` directory. The `Demo_Images/` folder contains screenshots of expected results for all tutorials and applications.
 
 ---
+## ©️ Certification
+The Official OpenCV Certification by OpenCV Company => http://courses.opencv.org/certificates/dd2b718cc65d4abe8080812a8ca6842e
+
+---
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -383,7 +401,6 @@ Contributions are welcome! Please follow these steps:
 - **AWS** for cloud infrastructure and AI services
 - **Ultralytics** for YOLO implementations
 - **Google Research** for MediaPipe and TensorFlow
-- **All Contributors** who have helped improve this repository
 
 ---
 ## 📄 License
