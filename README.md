@@ -1,4 +1,4 @@
-# 👁 Computer Vision Practice
+# Computer Vision Practice 👀
 
 ![OpenCV Banner](https://raw.githubusercontent.com/Kratugautam99/Computer-Vision-Practice/refs/heads/main/Demo%20Images/Logo.png)
 
