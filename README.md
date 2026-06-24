@@ -149,8 +149,11 @@ A comprehensive repository containing **11 foundational OpenCV tutorials** and *
 │   └── contoured_birds.jpg              → Detected contours
 │
 ├── .gitignore             → Git ignore configuration
+|
 ├── environment.yml        → Conda environment specification
+|
 ├── requirements.txt       → Python package dependencies
+|
 └── README.md             → This documentation file
 ```
 ---
